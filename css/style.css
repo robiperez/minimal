@@ -1,0 +1,82 @@
+*{
+	font-family: 'Cutive Mono', monospace;
+	text-decoration: none;
+	font-kerning: 10px;
+}
+
+.home {
+	 display: flex;
+ -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+          text-align: center;
+  height: 100%;
+}
+
+.home p{
+	color: black;
+	display:;
+	opacity: 1;
+	font-size: 30px;
+	transition: 0.3s ease-in-out;
+	letter-spacing: 10px;
+
+}
+
+.home p:hover{
+	color: #123793;
+}
+
+.home img{
+	height: 50px;
+	padding: 5px;
+	background-color: white;
+	transition: 0.3s ease-in-out;
+	float: left;
+}
+
+.name{
+	color: ;
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+	display: none;
+	font-size: 30px;
+}
+
+.footer{
+display: flex;
+ -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+          text-align: center;
+	position: relative;
+	margin-top:-5%;
+}
+
+.des, .pic, .nts, .mail{
+	background-color: white;
+}
+
+.des:hover{
+	background-color: #ff8a80;
+}
+
+.pic:hover{
+	background-color: #82b1ff;
+}
+
+.nts:hover{
+	background-color: #ccff90;
+}
+
+.mail:hover{
+	background-color: #ffe57f;
+}

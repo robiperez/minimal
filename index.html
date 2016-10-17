@@ -1,0 +1,39 @@
+<! doctype html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+        <link rel="javascript" type="javascript" href="js/script.js">
+        <title>Luis Pérez</title>
+    </head>
+    <body>
+        <div class="home">
+            <div class="hometext">
+            <p onmouseover="showname()" id="noname">L___ P____</p>
+            <p  id="name" onmouseleave="hidename()" class="name">Luis Pérez</p>
+            </div>
+            <div>
+                <img class="pic" src="css/assets/pics.png">
+                <img class="des" src="css/assets/des.png">
+                <img class="mail" src="css/assets/mail.png">
+                <img class="nts" src="css/assets/nts.png">
+            </div>
+        </div>
+        <div>
+            <p class="footer">2016</p>
+        </div>
+    </body>
+    <script type="text/javascript">
+function showname(){
+    document.getElementById("name").style.display = "inline-block";
+    document.getElementById("noname").style.display ="none";
+}
+
+function hidename() {
+    document.getElementById("name").style.display = "none";
+    document.getElementById("noname").style.display ="inline-block";
+}
+    </script>
+</html>

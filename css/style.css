@@ -15,10 +15,15 @@
           flex-flow: column;
           text-align: center;
   height: 100%;
+  background: linear-gradient(to bottom, #bbdefb , #f8bbd0); 
+}
+
+p{
+	color: white;
 }
 
 .home p{
-	color: black;
+	color: white;
 	display:;
 	opacity: 1;
 	font-size: 30px;
@@ -27,20 +32,17 @@
 
 }
 
-.home p:hover{
-	color: #123793;
-}
 
 .home img{
 	height: 50px;
 	padding: 5px;
-	background-color: white;
+	background-color: transparent;
 	transition: 0.3s ease-in-out;
 	float: left;
 }
 
 .name{
-	color: ;
+	color: white;
 	opacity: 0;
 	transition: 0.3s ease-in-out;
 	display: none;
@@ -62,21 +64,22 @@ display: flex;
 }
 
 .des, .pic, .nts, .mail{
-	background-color: white;
+	background-color: transparent;
+	filter: invert();
 }
 
 .des:hover{
-	background-color: #ff8a80;
+	background-color: #00757f;
 }
 
 .pic:hover{
-	background-color: #82b1ff;
+	background-color: #7d4e00;
 }
 
 .nts:hover{
-	background-color: #ccff90;
+	background-color: #33006f;
 }
 
 .mail:hover{
-	background-color: #ffe57f;
+	background-color: #001a80;
 }
